@@ -41,11 +41,11 @@ We use virtual environments to keep project-specific libraries isolated and prev
 1. Open your project folder in VS Code
 2. Open the terminal (`Ctrl` + `` ` ``) and run:
      ```bash
-     python -m venv venv
+     python -m venv .venv
      ```
 3. **Activate it:**
-     - **Windows:** `.\venv\Scripts\activate`
-     - **Mac/Linux:** `source venv/bin/activate`
+     - **Windows:** `.venv\Scripts\activate`
+     - **Mac/Linux:** `source .venv/bin/activate`
      - *Note: You should see `(venv)` appearing at the beginning of your terminal prompt*
 
 ### 5. Install ML Libraries
